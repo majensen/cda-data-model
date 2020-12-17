@@ -1,0 +1,19 @@
+// Extracted from CCDH MVPv0
+{
+    "$id": "https://example.org/cda-data-model/Project#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "Project": {
+        "additionalProperties": false,
+        "description": "Any specifically defined piece of work that is undertaken or attempted to meet a single requirement. (NCIt C47885)",
+        "properties": {
+            "id": {
+                "type": "string"
+            }
+        },
+        "required": [
+        "id"
+        ],
+        "title": "Project",
+        "type": "object"
+    }
+}
