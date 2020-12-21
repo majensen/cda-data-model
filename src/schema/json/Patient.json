@@ -1,0 +1,23 @@
+// Extracted from CCDH MVPv0
+{
+    "$id": "https://example.org/cda-data-model/Patient#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "Patient": {
+        "additionalProperties": false,
+        "description": "",
+        "properties": {
+        "id": {
+            "type": "string"
+        },
+        "taxon": {
+            "$ref": "#/definitions/CodeableConcept",
+            "description": "The taxonomic group (e.g. species) of the patient."
+         }
+        },
+        "required": [
+        "id"
+        ],
+        "title": "Patient",
+        "type": "object"
+    }
+}
