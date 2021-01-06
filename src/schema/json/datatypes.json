@@ -1,8 +1,6 @@
-// Extracted from CCDH MVPv0
-// Defining complex data types
 {
     "$id": "https://example.org/cda-data-model/datatypes#",
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#/",
     "definitions": {
         "CodeableConcept": {
             "additionalProperties": false,
@@ -91,8 +89,5 @@
             "title": "Quantity",
             "type": "object"
         }
-    },
-    "properties": {},
-    "title": "CDA-Data-Model",
-    "type": "object"
     }
+}
