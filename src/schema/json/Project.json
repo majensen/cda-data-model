@@ -12,7 +12,7 @@
             "identifier": {
                 "description": "A 'business' identifier  or accession number for the entity, typically as provided by an external system or authority, that persists across implementing systems. ",
                 "items": {
-                    "$ref": "./datatypes.json/definitions/Coding"
+                    "$ref": "#/definitions/Coding"
                 },
                 "type": "array"
             },

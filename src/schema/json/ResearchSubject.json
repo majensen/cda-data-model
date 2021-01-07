@@ -48,7 +48,7 @@
                 "description": "The taxonomic group (e.g. species) of the patient. For MVP, since taxonomy vocabulary is consistent between GDC and PDC, using text.  Ultimately, this will be a vocabulary service term."
              },
             "harmonized_disease_type": {
-                "description": "Harmonized disease type based on CCDH model; for MVP, the ETL process will assign the value of GDC disease_type.  This may be removed from the model in future and replaced with an API call that determines this value based submitting the CodeableConcept to a vocabulary service which will return the canonical value to be used for search.  Searching for any of the terms in the CodeableConcept is an option to be considered in future.  This field will not appear in data submitted by the DCs.",
+                "description": "Harmonized disease type based on CCDH model; for MVP, the ETL process will consult the table of harmonized disease_types provided by CCDH to set this value. GDC disease_type.  This may be removed from the model in future and replaced with an API call that determines this value based submitting the CodeableConcept to a vocabulary service which will return the canonical value to be used for search.  In future, CCDH will provide a vocabulary service, allowing us to request the canonical disease name for searching based on the CodeableConcept for disease_type submitted by the DCs.  This field will not appear in data submitted by the DCs.",
                 "type": "string"
             },
             "days_to_birth": {

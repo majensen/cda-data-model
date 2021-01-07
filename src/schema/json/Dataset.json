@@ -20,11 +20,11 @@
             },
             "data_use_limitation": {
                 "description": "Ontology reference to DUO",
-                "$ref": "./definitions.json/definitions/ExternalReference"
+                "$ref": "./definitions/ExternalReference"
             },
             "data_use_restriction": {
                 "description": "Ontology reference to DUO",
-                "$ref": "./definitions.json/definitions/ExternalReference"
+                "$ref": "./definitions/ExternalReference"
             },
             "label": {
                 "description": "Short name or abbreviation for dataset. Maps to rdfs:label.",

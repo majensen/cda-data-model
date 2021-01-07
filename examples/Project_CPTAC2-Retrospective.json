@@ -2,7 +2,6 @@
     "id": "https://example.org/cda/Project/CPTAC2_Retrospective#",
     "title": "CPTAC2-Retrospective",
     "label": "CPTAC2-Retrospective",
-    "embargo_date": "2021-03-01T00:00:00-5:00 or 2021-03-01",
     "studies": [ 
         {
             "label": "TCGA Breast Cancer Proteome",
@@ -27,5 +26,3 @@
     ],
     "program": "CPTAC"
 }
-
-**** Figure out how to deal w/ dbgap accession!!
