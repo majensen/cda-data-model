@@ -1,0 +1,28 @@
+{
+    "id": "https://example.org/cda/Project/CPTAC2_Retrospective#",
+    "title": "CPTAC2-Retrospective",
+    "label": "CPTAC2-Retrospective",
+    "studies": [ 
+        {
+            "label": "TCGA Breast Cancer Proteome",
+            "system": "https://proteomic.datacommons.cancer.gov/pdc/study",
+            "value": "PDC000173",
+            "embargo_date": "2015-05-26T00:00:00-5:00",
+            "dbgap_accession": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000892"
+        },
+        {
+            "label": "TCGA Breast Cancer Phosphoproteome",
+            "system": "https://proteomic.datacommons.cancer.gov/pdc/study",
+            "value": "PDC000174",
+            "embargo_date": "2015-05-26T00:00:00-5:00",
+            "dbgap_accession": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000892"
+        }
+    ],
+    "primary_disease_site": [
+        "Breast"
+    ],
+    "primary_disease_type": [
+        "Ductal and Lobular Neoplasms"
+    ],
+    "program": "CPTAC"
+}

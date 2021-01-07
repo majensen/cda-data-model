@@ -1,8 +1,6 @@
-// Extracted from CCDH MVPv0
-// Defining complex data types
 {
-    "$id": "https://example.org/cda-data-model/datatypes#",
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://example.org/cda-data-model/definitions#",
+    "$schema": "http://json-schema.org/draft-07/schema#/",
     "definitions": {
         "CodeableConcept": {
             "additionalProperties": false,
@@ -90,9 +88,35 @@
             "required": [],
             "title": "Quantity",
             "type": "object"
+        },
+        "ExternalReference": {
+            "additionalProperties": false,
+            "description": "An external reference to an ontology, vocabulary or other system",
+            "properties": {
+                "term_id": {
+                    "description": "Term identifier with prefix or full url. For example, 9606 for NCBITAXON Human or phs",
+                    "type": "string"
+                }, 
+                "term_label": {
+                    "description": "Human-readable label for the term.  Maps to rdfs:label.",
+                    "type": "string"
+                },
+                "reference_url": {
+                    "description": "Ontology persistent URL. For example, http://purl.bioontology.org/ontology/NCBITAXON/ ",
+                    "type": "string"
+                },
+                "version": {
+                "description": "The version of the ontology or reference source.",
+                "type": "string"
+                }
+            },
+            "required": [
+            "term_id",
+            "reference_url",
+            "term_label"
+            ],
+            "title": "ExternalReference",
+            "type": "object"
         }
-    },
-    "properties": {},
-    "title": "CDA-Data-Model",
-    "type": "object"
     }
+}

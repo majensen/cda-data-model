@@ -1,0 +1,28 @@
+{
+    "id": "https://example.org/cda/Project/TCGA-BRCA#",
+    "title": "Breast Invasive Carcinoma",
+    "label": "TCGA_BRCA",
+    "identifier": [ 
+        {
+            "code": "TCGA-BRCA",
+            "display": "Breast Invasive Carcinoma",
+            "system": "https://portal.gdc.cancer.gov/projects/"
+        }
+    ],
+    "disease_site": [
+        "Breast"
+    ],
+    "disease_type": [
+        "Adenomas and Adenocarcinomas",
+        "Adnexal and Skin Appendage Neoplasms",
+        "Basal Cell Neoplasms",
+        "Complex Epithelial Neoplasms",
+        "Cystic, Mucinous and Serous Neoplasms",
+        "Ductal and Lobular Neoplasms",
+        "Epithelial Neoplasms, NOS",
+        "Fibroepithelial Neoplasms",
+        "Squamous Cell Neoplasms"
+    ],
+    "dbgap_accession": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000178",
+    "program": "TCGA Dataset"
+}

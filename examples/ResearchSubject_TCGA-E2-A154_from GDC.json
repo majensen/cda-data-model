@@ -1,0 +1,35 @@
+{
+    "ResearchSubject": {
+        "id": "https://example.org/cda/ResearchSubject/TCGA-E2-A154",
+        "associated_project": [
+            {
+                "project": "https://example.org/cda/Project/TCGA-BRCA#",
+                "case_id": "24e39609-9645-43e5-960b-db5446eaea65"
+            }
+        ],
+        "primary_disease_site": {
+            "coding": {
+                "code": "",
+                "display": "Breast",
+                "system": "https://docs.gdc.cancer.gov/Data_Dictionary/viewer/#?view=table-definition-view&id=case&anchor=primary_site",
+                "version": ""      
+            },
+            "text": "Breast"
+        },
+        "primary_disease_type": {
+            "coding": [
+                {
+                    "code": "",
+                    "display": "Ductal and Lobular Neoplasms",
+                    "system": "https://docs.gdc.cancer.gov/Data_Dictionary/viewer/#?view=table-definition-view&id=case&anchor=disease_type",
+                    "version": ""
+                }
+            ],
+            "text": "Ductal and Lobular Neoplasms"  
+        },
+        "days_to_birth": "-24999",
+        "sex": "female",
+        "ethnicity": "not hispanic or latino",
+        "race": "white"
+    }
+}
