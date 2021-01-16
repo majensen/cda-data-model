@@ -1,0 +1,14 @@
+{
+    "describedBy": "https://example.org/cda-data-model/Patient#",
+    "id": "https://example.org/cda/Patient/TCGA-E2-A154",
+    "research_subject_list":[
+        {
+            "research_subject_id": "038a0679-63d9-11e8-bcf1-0a2705229b82"
+        }
+    ],
+    "taxon": "Homo sapiens",
+    "days_to_birth": "-24999",
+    "sex": "Female",
+    "ethnicity": "Not Hispanic or Latino",
+    "race": "White"
+}

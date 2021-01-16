@@ -1,36 +1,24 @@
 {
-    "ResearchSubject": {
-        "id": "https://example.org/cda/ResearchSubject/TCGA-E2-A154",
-        "associated_project": [
+    "describedBy": "https://example.org/cda-data-model/ResearchSubject#",
+    "id": "038a0679-63d9-11e8-bcf1-0a2705229b82",
+    "label": "TCGA-E2-A154",
+    "associated_project": "https://example.org/cda/Project/CPTAC2_Retrospective#",
+    "primary_disease_site": {
+        "coding": [
             {
-                "project": "https://example.org/cda/Project/CPTAC2_Retrospective#",
-                "case_id": "038a0679-63d9-11e8-bcf1-0a2705229b82"
-            }
-        ],
-        "primary_disease_site": {
-            "coding": {
-                "code": "",
                 "display": "Breast",
                 "system": "https://proteomic.datacommons.cancer.gov/data-dictionary/dictionaryitem.html?eName=Case#primary_siteß",
-                "version": ""      
-            },
-            "text": "Breast"
-        },
-        "primary_disease_type": {
-            "coding": [
-                {
-                    "code": "",
-                    "display": "Breast Invasive Carcinoma",
-                    "system": "https://proteomic.datacommons.cancer.gov/data-dictionary/dictionaryitem.html?eName=Case#disease_type",
-                    "version": ""
-                }
-            ],
-            "text": "Breast Invasive Carcinoma"  
-        },
-        "taxon": "Homo sapiens",
-        "days_to_birth": "-24999",
-        "sex": "Female",
-        "ethnicity": "Not Hispanic or Latino",
-        "race": "White"
+            }
+        ],
+        "text": "Breast"
+    },
+    "primary_disease_type": {
+        "coding": [
+            {
+                "display": "Breast Invasive Carcinoma",
+                "system": "https://proteomic.datacommons.cancer.gov/data-dictionary/dictionaryitem.html?eName=Case#disease_type",
+            }
+        ],
+        "text": "Breast Invasive Carcinoma"  
     }
 }
