@@ -42,6 +42,10 @@
             },
             "type": "array"
         },
+        "label": {
+            "description": "Short name or abbreviation for Patient. Maps to rdfs:label.",
+            "type": "string"  
+        },
         "days_to_birth": {
             "description": "Per GDC Dictionary, number of days between the date used for index and the date from a person's date of birth represented as a calculated negative number of days.",
             "type": "integer"            
