@@ -1,0 +1,29 @@
+{
+    "id": "48969e25-d1ba-561e-9b29-694a69813db8",
+    "identifier": [
+        {
+            "system": "GDC",
+            "value": "48969e25-d1ba-561e-9b29-694a69813db8"
+        }
+    ],
+    "age_at_diagnosis": 24999,
+    "morphology": "8500/3",
+    "primary_diagnosis": [
+        {
+            "code": "TBD",
+            "system": "GDC",
+            "display": "Infiltrating duct carcinoma, NOS"
+        }
+    ],
+    "stage": "i",
+    "treatment": [
+        {
+            "id": "313377b5-4ced-50c1-bd47-795f1c844c14",
+            "treatment_type": "Pharmaceutical Therapy, NOS"
+        }, {
+            "id": "834f8f26-9501-5224-913d-6211f0cbf8e5",
+            "treatment_type": "Radiation Therapy, NOS"            
+        }
+    ],
+    "research_subject": "24e39609-9645-43e5-960b-db5446eaea65"
+}

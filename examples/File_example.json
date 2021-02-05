@@ -1,0 +1,18 @@
+{
+    "$id": "https://example.org/cda-data-model/File#",
+    "describedBy": "https://example.org/cda-data-model/File#",
+    "id": "403b5cef-8173-47c7-b56a-cc94dcfbb2e3",
+    "identifier": [
+        {
+            "system": "GDC",
+            "value": "403b5cef-8173-47c7-b56a-cc94dcfbb2e3"
+        }
+    ],
+    "associated_project": "https://example.org/cda/Project/TCGA-BRCA#",
+    "data_category": "Clinical",
+    "data_type": "Clinical Supplement",
+    "label": "nationwidechildrens.org_clinical_follow_up_v2.1_brca.txt",
+    "byte_size": 372180,
+    "checksum": "29f6255a8ddac7f43b3a2a30fe3e2b64",
+    "file_format": ".txt"
+}

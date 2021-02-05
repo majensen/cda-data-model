@@ -1,6 +1,6 @@
 {
-    "id": "https://example.org/cda/Project/CPTAC2_Retrospective#",
-    "title": "CPTAC2-Retrospective",
+    "id": "CPTAC2 Retrospective#",
+    "dct:title": "CPTAC2-Retrospective",
     "label": "CPTAC2-Retrospective",
     "studies": [ 
         {
