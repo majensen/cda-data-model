@@ -1,6 +1,6 @@
 {
     "describedBy": "https://example.org/cda-data-model/Patient#",
-    "id": "https://example.org/cda/Patient/TCGA-E2-A154",
+    "id": "TCGA-E2-A154",
     "research_subject_list":[
         { "research_subject_id": "24e39609-9645-43e5-960b-db5446eaea65" }, 
         { "research_subject_id": "038a0679-63d9-11e8-bcf1-0a2705229b82" }

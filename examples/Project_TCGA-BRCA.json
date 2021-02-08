@@ -1,6 +1,6 @@
 {
-    "id": "https://example.org/cda/Project/TCGA-BRCA#",
-    "title": "Breast Invasive Carcinoma",
+    "id": "https://portal.gdc.cancer.gov/projects/TCGA-BRCA",
+    "dct:title": "Breast Invasive Carcinoma",
     "label": "TCGA_BRCA",
     "identifier": [ 
         {

@@ -1,18 +1,18 @@
 {
-    "Dataset": {
-        "id": "https://example.org/cda/Dataset/TCGA_Dataset",
-        "conformsTo": "CancerDataAggregator/cda-data-model/MVPv0",
-        "license": "https://gdc.cancer.gov/access-data/data-access-policies",
-        "access_request": "https://gdc.cancer.gov/access-data/obtaining-access-controlled-data",
-        "data_use_limitation": {
-            "reference_url": "http://purl.obolibrary.org/obo/ ",
-            "term_id": "DUO_0000042 ",
-            "term_label": "general research use"
-        },
-        "wasGeneratedBy": [
-            "https://example.org/cda/Project/TCGA_OV",
-            "https://example.org/cda/Project/TCGA_BRCA"
-        ],
-        "label": "TCGA Dataset"
-    }
+    "described_by": "https://example.org/cda-data-model/Dataset#",
+    "id": "https://example.org/cda/Dataset/TCGA_Dataset",
+    "conformsTo": "CancerDataAggregator/cda-data-model/MVPv0",
+    "license": "https://gdc.cancer.gov/access-data/data-access-policies",
+    "access_request": "https://gdc.cancer.gov/access-data/obtaining-access-controlled-data",
+    "data_use_limitation": {
+        "reference_url": "http://purl.obolibrary.org/obo/ ",
+        "term_id": "DUO_0000042 ",
+        "term_label": "general research use"
+    },
+    "wasGeneratedBy": [
+        "https://example.org/cda/Project/TCGA_OV",
+        "https://example.org/cda/Project/TCGA_BRCA"
+    ],
+    "dct_title": "The Cancer Genome Atlas Dataset",
+    "label": "TCGA Dataset"
 }
