@@ -52,7 +52,7 @@
             }          
         },
         "research_subject": {
-            "description": "Reference to the CDA/ResearchSubject.",
+            "description": "Reference to the ResearchSubject UUID.",
             "type": "string"
         },
         "specimen": {
