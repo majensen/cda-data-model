@@ -4,7 +4,7 @@
 ### Cancer Data Aggregator
 The Cancer Data Aggregator (CDA) is a query engine to aggregate data across the  [National Cancer Institute's (NCI) Cancer Research Data Commons (CRDC)](https://datascience.cancer.gov/data-commons). CDA will enable cancer researchers to discover, query, retrieve, and aggregate data by developing a single, interoperable, read-only API that can be used to query across disparate data types in CRDC repositories.  
 
-![Figure 1 - Cancer Data Aggregator]()
+![Figure 1 - Cancer Data Aggregator](https://github.com/CancerDataAggregator/cda-data-model/blob/documents/CancerDataAggregator_PMD_0.png)
 
 CDA leverages the work and data model that is concurrently being developed by the [Center for Cancer Data Harmonization (CCDH)](https://datacommons.cancer.gov/center-cancer-data-harmonization).  CCDH will facilitate harmonization across CRDC nodes and data coordination centers by creating a harmonized data model (CRDC-H) and will provide vocabulary services and other tools.
 
@@ -13,7 +13,7 @@ To enable the CDA and the CRDC-H to advance quickly, CDA maintains a data model 
 
 The CCDH data model promises to be a specimen-centric model whereas current CRDC nodes tend to use a case-centric approach.  The diagrams below depicts the shift from the respective GDC and PDC entity models (provided by CCDH - Figure 2) towards a specimen-centric model (Figure 3).
 
-![Figure 2 - GDC and PDC case-centric models ](https://github.com/CancerDataAggregator/cda-data-model/blob/UpdateREADME/documents/GDCPDCModels.png)
+![Figure 2 - GDC and PDC case-centric models ](https://github.com/CancerDataAggregator/cda-data-model/blob/main/documents/GDCPDCModels.png)
 
 As the CCDH model develops, CDA leverages the harmonization work of the CCDH model by extending the model only where necessary to support CDA functionality. For example, adding key search fields that are not yet included in the CCDH model. CDA periodically synchronizes with CCDH to maintain consistency between the  CDA MVP data model and the developing CCDH model.  The CDA MVP data model is expressed as JSON Schema.
 
