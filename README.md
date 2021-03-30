@@ -13,11 +13,11 @@ To enable the CDA and the CRDC-H to advance quickly, CDA maintains a data model 
 
 The CCDH data model promises to be a specimen-centric model whereas current CRDC nodes tend to use a case-centric approach.  The diagrams below depicts the shift from the respective GDC and PDC entity models (provided by CCDH - Figure 2) towards a specimen-centric model (Figure 3).
 
-![Figure 2 - ]()
+![Figure 2 - ](https://github.com/CancerDataAggregator/cda-data-model/blob/UpdateREADME/documents/GDCPDCModels.png)
 
 As the CCDH model develops, CDA leverages the harmonization work of the CCDH model by extending the model only where necessary to support CDA functionality. For example, adding key search fields that are not yet included in the CCDH model. CDA periodically synchronizes with CCDH to maintain consistency between the  CDA MVP data model and the developing CCDH model.  The CDA MVP data model is expressed as JSON Schema.
 
-![Figure 3 - ] ()
+![Figure 3 - ] (https://github.com/CancerDataAggregator/cda-data-model/blob/UpdateREADME/documents/CCDH%20Specimen-centric%20Jun2020.png)
 
 In Figure 3, the entities rimmed in blue are not yet part of the CCDH model but are extensions to allow CDA to aggregate and deliver data as the CCDH model evolves. It may be helpful to think about your queries in terms of these entities (e.g. Specimen, Patient, Research Subject, Project, Diagnosis) and their attributes (e.g. derived_from_subject, ethnicity, reference_assembly).
 
