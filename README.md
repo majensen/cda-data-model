@@ -1,7 +1,7 @@
-## Cancer Data Aggregator Data Model
+## Cancer Data Aggregator Data Model based on CRDC-H Data Model
 
 
-### Cancer Data Aggregator
+### Cancer Data Aggregator 
 The Cancer Data Aggregator (CDA) is a query engine to aggregate data across the  [National Cancer Institute's (NCI) Cancer Research Data Commons (CRDC)](https://datascience.cancer.gov/data-commons). CDA will enable cancer researchers to discover, query, retrieve, and aggregate data by developing a single, interoperable, read-only API that can be used to query across disparate data types in CRDC repositories.  
 
 ![Figure 1 - Cancer Data Aggregator](https://github.com/CancerDataAggregator/cda-data-model/blob/main/documents/CancerDataAggregator_PMD_0.png)
@@ -9,7 +9,7 @@ The Cancer Data Aggregator (CDA) is a query engine to aggregate data across the 
 CDA leverages the work and data model that is concurrently being developed by the [Center for Cancer Data Harmonization (CCDH)](https://datacommons.cancer.gov/center-cancer-data-harmonization).  CCDH will facilitate harmonization across CRDC nodes and data coordination centers by creating a harmonized data model (CRDC-H) and will provide vocabulary services and other tools.
 
 ### CDA Data Model
-To enable the CDA and the CRDC-H to advance quickly, CDA maintains a data model that meets phased CDA requirements while aligning as closely as possible to released CRDC-H iterations.  
+To enable the CDA and the CRDC-H to advance quickly, CDA maintains a data model that meets phased CDA requirements while aligning as closely as possible to released CRDC-H iterations. The CDA Data Model is a subset of the CRDC-H abstract data model with extensions and/or simplifications required to implement CDA requirements.
 
 The CCDH data model promises to be a specimen-centric model whereas current CRDC nodes tend to use a case-centric approach.  The diagrams below depicts the shift from the respective GDC and PDC entity models (provided by CCDH - Figure 2) towards a specimen-centric model (Figure 3).
 
