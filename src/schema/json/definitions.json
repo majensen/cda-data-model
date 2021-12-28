@@ -89,6 +89,35 @@
             "title": "Quantity",
             "type": "object"
         },
+        "Study": {
+ 	    "type":"object",
+ 	  "description": "Representing 'study' concept from different sources.",
+	    "additionalProperties": false,
+	    "title":"Study",
+    	    "required": [
+	        "label",
+	        "system",
+	        "value"
+	    ],
+            "properties": {
+                "label": {
+                    "description": "Human-readable name of the Study",
+                    "type": "string"
+                },
+                "system": {
+                    "description": "The system or namespace that defines the Study.",
+                    "type": "string"                    },
+                "value": {
+                    "description": "The value of the identifier, as defined by the system.",
+                    "type": "string"                    },
+                "embargo_date": {
+                    "description": "The date on which publication and release of data is permitted.  This data is made available with the condition that it cannot be published or disseminated before this date.  The field is represented as a string in this format: CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm].",
+                    "type": "string"
+                },
+                "dbgap_accession": {
+                    "description": "The link to the dbgap accession record for data associated with this Study. For MVP, will model this as a string, but this could be modeled as an external reference.",
+                    "type": "string"
+                }}},
         "ExternalReference": {
             "additionalProperties": false,
             "description": "An external reference to an ontology, vocabulary or other system",

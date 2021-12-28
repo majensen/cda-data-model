@@ -26,7 +26,7 @@
         "associated_project": {
             "description": "A reference to the Project(s) of which this ResearchSubject is a member. The associated_project may be embedded using the $ref definition or may be a reference to the id for the Project - or a URI expressed as a string to an existing entity.",
             "oneOf" : [
-                {"$ref": "https://example.org/cda-data-model/Project.json"},
+                {"$ref": "https://example.org/cda-data-model/Project"},
                 {"type": "string"}
             ]
         },

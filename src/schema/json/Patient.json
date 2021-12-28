@@ -33,12 +33,10 @@
         "research_subject_list": {
             "description": "A list of ResearchSubject identities for this Patient.  We could keep a list of the Projects but the ResearchSubject mimics the use of case_id in existing data.  All relevant data for each Project will be in the ResearchSubject.",
             "items": {
-                "research_subject_id": {
-                    "oneOf" : [
-                        {"$ref": "https://example.org/cda-data-model/ResearchSubject.json"},
+              "oneOf" : [
+                        {"$ref": "https://example.org/cda-data-model/ResearchSubject"},
                         {"type": "string"}
                     ]
-                }
             },
             "type": "array"
         },

@@ -47,28 +47,11 @@
             "type": "string"
         },
         "studies": {
-            "description": "List of studies associated with this Project. For POC, using this model instead of Identifier due to confusion over type CodeableConcept; reconsider for MVP.",
-            "properties": {
-                "label": {
-                    "description": "Human-readable name of the Study",
-                    "type": "string"
-                },
-                "system": {
-                    "description": "The system or namespace that defines the Study.",
-                    "type": "string"                    },
-                "value": {
-                    "description": "The value of the identifier, as defined by the system.",
-                    "type": "string"                    },
-                "embargo_date": {
-                    "description": "The date on which publication and release of data is permitted.  This data is made available with the condition that it cannot be published or disseminated before this date.  The field is represented as a string in this format: CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm].",
-                    "type": "string"
-                },
-                "dbgap_accession": {
-                    "description": "The link to the dbgap accession record for data associated with this Study. For MVP, will model this as a string, but this could be modeled as an external reference.",
-                    "type": "string"
-                }
-            },
-            "type": "array"
+          "description": "List of studies associated with this Project. For POC, using this model instead of Identifier due to confusion over type CodeableConcept; reconsider for MVP.",
+	  "items": {
+	    "$ref":"https://example.org/cda-data-model/definitions/Study"
+          },
+          "type": "array"
         },
         "dct:title": {
             "description": "Official project name. Maps to dct:title.",
